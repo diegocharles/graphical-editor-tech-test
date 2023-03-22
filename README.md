@@ -1,3 +1,11 @@
+Ruby Version: 3.2
+
+RUN:
+  `ruby kimage.rb`
+
+TEST:
+  `ruby kimage_test.rb`
+
 # The classic Forward dev test
 
 Graphical editors allow users to edit images in the same way text editors let us modify documents. Images are represented as an M x N array of pixels with each pixel given colour.
